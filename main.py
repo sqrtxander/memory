@@ -124,7 +124,7 @@ class Memory(tk.Tk):
                 self.turns += 1
                 self.update_turns_lbl()
 
-                self.after(2000, self.no_match)
+                self.after(1500, self.no_match)
 
         if self.has_won():
             self.audio.win.play()
